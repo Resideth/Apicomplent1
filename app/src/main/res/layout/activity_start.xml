@@ -1,0 +1,42 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    android:gravity="center"
+    android:padding="16dp"
+    tools:context=".StartActivity">
+
+    <Button
+        android:id="@+id/buttonGetPosts"
+        android:backgroundTint="@color/black"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Ver Posts (Método GET)"
+        android:layout_marginBottom="16dp"/>
+
+    <Button
+        android:id="@+id/buttonCreatePost"
+        android:backgroundTint="@color/black"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Crear Post (Método POST)"
+        android:layout_marginBottom="16dp"/>
+
+    <Button
+        android:id="@+id/buttonPutPost"
+        android:backgroundTint="@color/black"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Actualizar Post (Método PUT)"
+        android:layout_marginBottom="16dp"/>
+
+    <Button
+        android:id="@+id/buttonDeletePost"
+        android:backgroundTint="@color/black"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Eliminar Post (Método DELETE)"/>
+
+</LinearLayout>
